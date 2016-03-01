@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /projects/rest/
+RewriteBase /projects/test/rest/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
