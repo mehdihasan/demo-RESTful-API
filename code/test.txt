@@ -1,0 +1,11 @@
+curl -v http://localhost/projects/test/rest/code/clients/jim
+
+curl -v http://localhost/projects/test/rest/code/clients
+
+curl -v -X PUT http://localhost/projects/test/rest/code/clients/paul -d '{"address":"Sunset Boulevard" }
+
+curl -v -X DELETE http://localhost/projects/test/rest/code/clients/anne
+
+curl -v http://localhost/projects/test/rest/code/clients/jerry
+
+curl -v -X PUT http://localhost/projects/test/rest/code/clients/anne
